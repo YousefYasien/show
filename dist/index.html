@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="nav">
-      <img src="#" alt="Logo" />
+    <title>Falcons | 2034 world cup</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="logo">
+        <img src="./src/image-removebg-preview.jpg" alt="Logo" />
     </div>
-    <div class="main">
-      <div class="imgs">
-        <!-- images will be displayed here -->
-      </div>
-      <div class="imgselect">
-        <ul>
-          <li>Logo</li>
-          <li>Cup</li>
-          <li>Shirts</li>
-        </ul>
-      </div>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper" effect="cube">
+            <!-- Slides -->
+             <div class="swiper-slide" style="background-image: url('./src/WhatsApp_Image_2024-12-11_at_18.45.10_deddb132-removebg-preview.png');"><p>This is our logo designed with proficiency to match your expectations</p></div>
+            <div class="swiper-slide" style="
+            background-image: url('./src/Screenshot\ 2024-12-11\ 013817.jpg');
+          ">
+                <div class="slide-content">
+                    <p>This is a prototype for the shirts that will be used</p>
+                </div>
+            </div>
+            <div class="swiper-slide" style="
+            background-image: url('./src/ai-generated-nature-landscapes-background-free-photo.jpg');
+          ">
+                <p class="slide-content">
+                this is another shirt prototype
+        </p>
+            </div>
+            <div class="swiper-slide" style="
+            background-image: url('./src/WhatsApp\ Image\ 2024-12-11\ at\ 18.19.54_4139c52a.jpg');
+          ">
+                <div class="slide-content">
+                    <p>
+                        This how the cup will look like it's designed based on the flag of
+                        ksa with references to its beauty
+                    </p>
+                </div>
+            </div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
     </div>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
 </html>
